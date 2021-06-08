@@ -1,5 +1,6 @@
 # psalm-issue-case
 basic implementation to repeat the error MethodSignatureMismatch
+
 the error disappears if you remove phalcon stubs
 
 steps to reprocuse:
