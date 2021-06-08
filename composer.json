@@ -1,0 +1,22 @@
+{
+    "name": "mediatech/adsterra",
+    "description": "This is Adsterra!",
+    "type": "project",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "4.1.0",
+        "psalm/phar": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+          "Test\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
